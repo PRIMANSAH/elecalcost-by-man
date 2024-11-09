@@ -9,7 +9,7 @@
         const subsidi = document.getElementById('subsidi').value;
 
         if (!pemakaian || pemakaian <= 0) {
-            alert("Masukkan pemakaian watt yang valid.");
+            alert("isi dulu tolol");
             return;
         }
 
