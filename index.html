@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIMANSAH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Kalkulator Biaya Listrik PRIMANSAH</h2>
+    <div class="input-group">
+        <label for="daya">Daya (VA)</label>
+        <select id="daya">
+            <option value="450">450 VA</option>
+            <option value="900">900 VA</option>
+            <option value="1300">1300 VA</option>
+        </select>
+    </div>
+    <div class="input-group">
+        <label for="pemakaian">Pemakaian (Watt)</label>
+        <input type="number" id="pemakaian" placeholder="Masukkan pemakaian dalam watt">
+    </div>
+    <div class="input-group">
+        <label for="subsidi">Tipe Pelanggan</label>
+        <select id="subsidi">
+            <option value="subsidi">Subsidi</option>
+            <option value="nonsubsidi">Non-Subsidi</option>
+        </select>
+    </div>
+    <button onclick="hitungBiaya()">Hitung Biaya</button>
+
+    <div id="result" class="result" style="display: none;">
+        <p><strong>Estimasi Biaya Listrik:</strong></p>
+        <p id="biayaPerJam">Per Jam: -</p>
+        <p id="biayaPerHari">Per Hari: -</p>
+        <p id="biayaPerBulan">Per Bulan: -</p>
+        <p id="biayaPerTahun">Per Tahun: -</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

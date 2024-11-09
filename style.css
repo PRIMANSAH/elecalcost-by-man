@@ -1,0 +1,71 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000000;
+        }
+        .container {
+            color: rgb(132, 229, 14);
+            max-width: 400px;
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            color:  rgb(206, 248, 0);
+            background-image: url(https://i.pinimg.com/originals/90/89/b3/9089b3609b6595940092a50f59b027fa.gif);
+            background-clip: border-box;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-attachment: fixed;
+        }
+        .input-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #e50ecc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: pink;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(245, 6, 201);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+           background-color: white;
+           color: black;
+        }
+        .result {
+            margin-top: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            color: black;
+        }
+        .result p {
+            margin: 5px 0;
+            font-weight: bold;
+        }
